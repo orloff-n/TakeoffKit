@@ -47,9 +47,9 @@ enum TKSyncEngineEvent: CustomDebugStringConvertible {
         case .operationFailed(let error):
             "Operation failed (\(error.localizedDescription))"
         case .operationRetry(let ckError):
-            "Retry operation (in \(ckError.retryAfterSeconds ?? 0) seconds"
+            "Operation will be retried in \(ckError.retryAfterSeconds ?? 0) seconds"
         case .operationReplaced(let operations):
-            "Split operation into \(operations.count) operations"
+            "Operation replaced with \(operations.count) operation(s)"
         }
     }
 }

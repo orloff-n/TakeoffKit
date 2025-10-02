@@ -33,6 +33,9 @@ Add a dependency using Swift Package Manager:
 3. Select a dependency rule and add the package to your project
 
 ## Usage
+> [!NOTE]
+> Read the full documentation [here](https://swiftpackageindex.com/orloff-n/TakeoffKit/main/documentation).
+
 ### Prerequisite
 Ensure that your app is [configured to use CloudKit](https://developer.apple.com/documentation/cloudkit/enabling-cloudkit-in-your-app).
 
